@@ -7,10 +7,138 @@
     <title>Mi primera página web</title> <!-- Para darle un título a mi página-->
 </head>
 <body> <!-- Corresponde al contenido visual de mi página web, todo lo que el usuario visualiza en pantalla(texto,imagenes,botones,colores, etc) esta dentro del elemento body-->
+    
+    <header>
+        <h1>Universidad Central del Ecuador</h1>
+        <h3>Carrera de Computación</h3>
+    </header>
+    
+    <nav></nav>
+
+    <section>
+        <!-- Cabeceras de secciones -->
     <h1>Mi primera página web</h1>
-    <h3>Carrera de Computación</h3>
     <h6>Dario Vergara</h6>
+
+    <!-- Parrafos-->
     <p>Este es el primer párrafo de mi página web  ::</p>
+
+    <span>Parrafos más cortos</span>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur beatae reiciendis excepturi nihil necessitatibus, dolor adipisci qui in veniam inventore.</p>
+    <!-- Textos-->
+
+    <strong>Texto de importancia que quiero resaltar</strong>
+    <br>
+
+    <b>Textos que no quiero darle relevancia</b>
+    <br>
+    <em>Textos en cursiva con importancia</em>
+    <br>
+    <i>Texto en cursiva pero sin importancia</i>
+    <br>
+    <u>Texto subrayado</u>
+    <br>
+    <hr>
+    <br>
+    <s>Texto Eliminado</s>
+    <br>
+    <mark>Texto resaltado</mark>
+    <br> 
+
+    <!-- Listas -->
+    <ul>
+        <li>Ventas</li>
+        <li>Compras</li>
+        <li>Inventario</li>
+    </ul> 
+    <br>
+    <ol>
+        <li>Ventas</li>
+        <li>Compras</li>
+        <li>Inventario</li>
+    </ol>
+    <br>
+
+    <!-- Tablas -->
+
+    <table border="1">
+        <thead>
+            <!-- tr siempre es primero y representa una fila-->
+             <tr>
+                <!-- Como contenido de la fila declaro todas las columnas-->
+                 <th>#</th>
+                 <th>Nombre</th>
+                 <th>Apellido</th>
+                 <th>CI</th>
+                 <th>Genero</th>
+                 <th>Acción</th>
+             </tr>
+        </thead>
+        <tbody>
+            <!-- Por cada fila es un elemento html tr-->
+            <tr>
+                <td>1</td>
+                <td>Dario</td>
+                <td>Vergara</td>
+                <td>1727317214</td>
+                <td>Masculino</td>
+                <td><button>Editar</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Daniela</td>
+                <td>Teran</td>
+                <td>1727345455</td>
+                <td>Femenino</td>
+                <td><button>Editar</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Contenedores (Elementos que agrupan contenido) -->
+     <div></div>
+    <!-- Son contenedores/agrupadores header,nav,secction etc .. -->
+    <br>
+    <!-- Formularios -->
+    <form action="">
+        <label for="id_nombre">Nombre</label>
+        <input type="text" id="id_nombre">
+        <label for="id_password">Passoword</label>
+        <input type="password" id="id_password">
+        <br>
+        <br>
+        <label for="id_fecha">Fecha de Nacimiento</label>
+        <input type="date" id="id_fecha">
+        <label for="id_edad">Edad</label>
+        <input type="number" id="id_edad">
+        <br>
+        <button>Guardar</button>
+    </form>
+
+    <br>
+
+    <!-- Multimedia -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/800px-React-icon.svg.png"
+     alt="No se puede visualizar", width="400" height="350">
+
+    <br>
+
+    <video controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    </video>
+
+    <br>
     <button>Aceptar</button>
+
+    </section>
+
+    <aside></aside> <!--Barra lateral-->
+
+    <footer>
+        <h3>Todos los Derechos Reservados</h3>
+    </footer> <!-- Pie de página -->
+
+
+
 </body>
 </html> 
