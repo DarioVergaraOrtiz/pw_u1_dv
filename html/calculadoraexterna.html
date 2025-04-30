@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="../js/calculadora.js"></script>
 </head>
+
 <body>
-    <header>
-        <h1>Calculadora UCE</h1>
-    </header>
-
+    <header></header>
     <nav></nav>
-
     <section>
+        <!--Le doy un contenedor para poner en este lugar el nuevo boton-->
         <div id="id_espacio"></div>
-        <label id="id_label_1" for="id_numero_1">Número 1</label>
+        <label id="id_label_1" for="id_numero_1">Numero 1</label>
         <input id="id_numero_1" type="number">
-        <label id="id_label_2" for="id_numero_2">Número 2</label>
+        <label id="id_label_2" for="id_numero_2">Numero</label>
         <input id="id_numero_2" type="number">
         <p id="id_resultado">Resultado: </p>
         <button onclick="evaluarOperacion('+')">Sumar</button>
         <button onclick="evaluarOperacion('-')">Restar</button>
         <button onclick="evaluarOperacion('*')">Multiplicar</button>
         <button onclick="evaluarOperacion('/')">Dividir</button>
+
         <button onclick="fundamentos()">Fundamentos de JS</button>
     </section>
-
     <aside></aside>
-
-    <footer>
-    </footer>
+    <footer></footer>
 </body>
+
 </html>
